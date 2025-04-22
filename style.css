@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Manrope", serif;
-    color: #FFFF;
+    color: #141414;
 }
 
 body{
@@ -13,7 +13,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #052155;
+    background-color: #141414;
     flex-direction: column;
     gap: 30px;
 }
@@ -29,19 +29,20 @@ h1{
 p{
     margin: 20px 0px;
     font-size: 22px;
-    color: #ffffffa4;
+    color: #141414;
 }
 
 div{
-    background-color: #073385;
+    background-color: #fffffff5;
     padding: 50px;
     border-radius: 10px;
     width: 730px;
+    border: solid 3px #ffffff21;
 }
 
 button, input{
-    background-color: #FFFF;
-    color: #000000;
+    background-color: #226FFF;
+    color: #fffffff5;
     border: none;
     border-radius: 10px;
     padding: 10px 20px;

@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if (jsonData.length > 0) {
                 // Detecta os nomes corretos das colunas independentemente do formato
                 const firstRow = jsonData[0];
-                const nameKey = Object.keys(firstRow).find(key => key.toLowerCase().includes("nome"));
+                const nameKey = Object.keys(firstRow).find(key => key.toLowerCase().includes("first name"));
                 const emailKey = Object.keys(firstRow).find(key => key.toLowerCase().includes("email"));
 
                 if (nameKey && emailKey) {
